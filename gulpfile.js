@@ -23,6 +23,7 @@ gulp.task('browser-sync', function () {
     },
     notify: true,
     open: true,
+    browser: "firefox"
     // tunnel: true,
     // tunnel: "projectname", //Demonstration page: http://projectname.localtunnel.me
   });
