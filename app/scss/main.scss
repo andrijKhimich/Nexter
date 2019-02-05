@@ -1,0 +1,29 @@
+// @import "abstracts/normalize";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/fonts";
+@import "base/typography";
+@import "base/animations";
+
+// @import "components/modal";
+@import "components/sidebar";
+@import "components/realtors";
+@import "components/features";
+@import "components/story";
+@import "components/gallery";
+
+@import "layout/header";
+@import "layout/footer";
+
+// uncoment what need
+// @import "libs/bootstrap/bootstrap-grid.min";
+// @import "libs/bootstrap/bootstrap-theme.min";
+// @import "libs/bootstrap/bootstrap.min";
+// @import "libs/animate";
+// @import "libs/iziModal.min";
+// @import "libs/slick";
+
+@import "pages/home";
